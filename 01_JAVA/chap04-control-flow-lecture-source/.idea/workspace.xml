@@ -9,6 +9,8 @@
       <change afterPath="$PROJECT_DIR$/../chap03-method-and-api-lecture-source/src/com/ohgiraffers/section04/scanner/Application2.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../chap03-method-and-api-lecture-source/src/com/ohgiraffers/section04/scanner/Application3.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/com/ohgiraffers/section01/conditional/D_switch.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/ohgiraffers/section02/looping/A_for.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/ohgiraffers/section02/looping/Application.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -70,7 +72,7 @@
       <option name="presentableId" value="Default" />
       <updated>1711333993381</updated>
       <workItem from="1711333994418" duration="6500000" />
-      <workItem from="1711344657212" duration="2776000" />
+      <workItem from="1711344657212" duration="6355000" />
     </task>
     <servers />
   </component>
