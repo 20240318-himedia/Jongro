@@ -7,7 +7,12 @@ public class Application {
         A_for a = new A_for();
        // a.testSimpleForStatement();
         // a.testForExample1();
-        a.testForExample2();
+        //a.testForExample2();
+        // a.printSimpleGugudan();
 
+        A_nestedFor an = new A_nestedFor();
+        //an.printGugudanFromTwoToNice();
+        //an.printStarInputRowTimes();
+        an.printTriangleStars();
     }
 }
