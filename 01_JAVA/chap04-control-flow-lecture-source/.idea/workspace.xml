@@ -4,7 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="26a2fbef-6ce4-4093-bd0a-6a37b65901f6" name="Changes" comment="" />
+    <list default="true" id="26a2fbef-6ce4-4093-bd0a-6a37b65901f6" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../chap03-method-and-api-lecture-source/src/com/ohgiraffers/section04/scanner/Application1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chap03-method-and-api-lecture-source/src/com/ohgiraffers/section04/scanner/Application2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chap03-method-and-api-lecture-source/src/com/ohgiraffers/section04/scanner/Application3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/ohgiraffers/section01/conditional/D_switch.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -20,9 +25,9 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 0
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 0
+}</component>
   <component name="ProjectId" id="2eA4LDxpF2O1vcyVer2vHhGodX2" />
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -35,7 +40,7 @@
     "Application.Application.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "main",
+    "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "C:/Users/hi/Desktop/dev/01_JAVA/01-lecture-source/chap04-control-flow-lecture-source",
     "node.js.detected.package.eslint": "true",
@@ -64,7 +69,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1711333993381</updated>
-      <workItem from="1711333994418" duration="6688000" />
+      <workItem from="1711333994418" duration="6500000" />
+      <workItem from="1711344657212" duration="2776000" />
     </task>
     <servers />
   </component>
