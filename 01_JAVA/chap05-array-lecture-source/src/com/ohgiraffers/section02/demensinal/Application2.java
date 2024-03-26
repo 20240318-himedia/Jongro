@@ -61,16 +61,25 @@ public class Application2 {
 
         int value = 1;
 
-        for(int i = 0; i < iarr.length; i++){
+        /* 설명. 모든 배열에 순차적으로 접근하는 반복문 */
+        for(int i = 0; i < iarr.length; i++) {
 
-            for(int j =0; j<iarr[i].length; j++){
-                iarr[i][j] = value++;
+            /* 설명. 배열마다 인덱스에 차례로 접근하는 반복문 */
+            for(int j = 0; j < iarr[i].length; j++) {
+                iarr[i][j] = ++value;
+            }
+        }
+
+        /* 설명. 모든 배열에 순차적으로 접근하는 반복문 */
+        for(int i = 0; i < iarr.length; i++) {
+
+            /* 설명. 배열마다 인덱스에 차례로 접근하는 반복문 */
+            for(int j = 0; j < iarr[i].length; j++) {
                 System.out.print(iarr[i][j] + " ");
             }
             System.out.println();
         }
-
-
-
     }
 }
+
+
