@@ -12,7 +12,7 @@ public class Application {
         System.out.println("=================");
 
         double circle = tm.CircleArea();
-        System.out.println("원의 부피는 " + circle + "입니다.");
+        System.out.println("원의 넓이는 " + circle + "입니다.");
 
         System.out.println("=================");
 
