@@ -11,7 +11,7 @@ public class Monster {
     * */
 
     /* 위에 네가지 접근제한자는 클래스 멤버(필드, 메소드)에 모두 가능하다
-    * 하지만 클래스는 public, defult만 사용 가능하다.
+    * 하지만 클래스는 public, default만 사용 가능하다.
     * */
 
     private String kinds;
