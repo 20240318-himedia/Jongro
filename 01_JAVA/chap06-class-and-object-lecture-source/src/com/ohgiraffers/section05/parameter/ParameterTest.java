@@ -44,7 +44,7 @@ public class ParameterTest {
 
     }
 
-    public void testVariableLengthArray(String name, String...hobby){
+    public void testVariableLengthArray(String name, String... hobby){
 
         System.out.println("이름 : " +name);
         System.out.println("취미의 갯수 : " + hobby.length);
