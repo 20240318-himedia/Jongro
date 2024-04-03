@@ -61,7 +61,51 @@ public class Application1 {
         System.out.println("lastIndexOf('a') :" + indexOf.lastIndexOf('a')); //7
         System.out.println("lastIndexOf('z') :" + indexOf.lastIndexOf('z')); //-1
 
-        
+        /* trim() : 문자열의 앞 위에 공백을 제거한 문자열을 반환한다*/
+        String trimStr = "   java   ";//앞 뒤 공백3칸
+        System.out.println("trimStr = #" + trimStr + "#");
+        System.out.println("trim() = #" + trimStr.trim() + "#");
+        System.out.println("trimStr = #" + trimStr + "#");
+
+        /*
+        * toLowerCase() : 모든 문자를 소문자로 변환시킨다.
+        * toUpperCase() : 모든 문자를 대문자로 변환시킨다.
+        * */
+        String caseStr = "JavaOracle";
+
+        System.out.println("toLowerCase() : " + caseStr.toLowerCase());
+        System.out.println("toUpperCase() : " + caseStr.toUpperCase());
+
+        System.out.println("caseStr = " + caseStr);
+
+        /*
+        * substring() : 문자열 일부분을 잘라내어 새로운 문자열을 반환한다.
+        * */
+
+        String javaoracle = "javaoracle";
+
+        System.out.println("substring(3, 6) : " + javaoracle.substring(3,7));
+        System.out.println("substring(3) : " + javaoracle.substring(3));
+
+        System.out.println("javaoracle : " + javaoracle);
+
+        /* replace() : 문자열에서 대체할 문자열로 기존 문자열을 변경해서 변환한다.*/
+        System.out.println("replace() : " + javaoracle.replace("java","python"));
+        System.out.println("javaoracle : " + javaoracle);
+
+        /* length() : 문자열의 길이를 정수형으로 반환한다.*/
+        System.out.println("length() : " + javaoracle.length());
+        System.out.println("빈 문자열의 길이 "+(" ".length()));
+
+        /*isEmpty() : 문자열의 길이가 0이면 true를 아니면 false를 반환*/
+        System.out.println("isEmpty() : "+"".isEmpty() );
+        System.out.println("isEmpty() : "+"   ".isEmpty() );
+
+        /* 길이가 0인 문자열은 null과는 다르다.*/
+        String str6 = null;
+        String str7 = "";
+
+
 
     }
 
