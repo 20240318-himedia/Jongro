@@ -9,7 +9,7 @@ public class Application2 {
 
     /* Object 클래스의 equals() 메소드의 오버라이딩 목적을 이해하고 활용할 수 있다. */
     /*
-    * equals() 메소드의 오버라잍딩
+    * equals() 메소드의 오버라이딩
     * equals 메소드는 매개변수로 전달받은 인스턴스와 ==연산을 하여  true와 false를 반환한다.
     * 동일한 인스턴스인지를 비교하는 기능을 한다.
     *
