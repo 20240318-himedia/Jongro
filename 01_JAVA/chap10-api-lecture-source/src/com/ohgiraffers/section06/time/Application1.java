@@ -11,7 +11,7 @@ public class Application1 {
 	public static void main(String[] args) {
 
 		/* 수업목표. time 패키지에서 제공하는 클래스들의 사용 용법을 이해할 수 있다. */
-		/* 필기.
+		/*
 		 *  time 패지는 JDK 1.8에서 추가된 기능이다.
 		 *  Date, Calendar가 가지고 있는 단점을 해소하기 위해서 탄생되었다.
 		 *  time 패키지의 하위 패키지
