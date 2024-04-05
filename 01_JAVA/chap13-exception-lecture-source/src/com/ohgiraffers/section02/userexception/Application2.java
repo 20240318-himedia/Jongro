@@ -10,17 +10,19 @@ public class Application2 {
         ExceptionTest et = new ExceptionTest();
         try {
            // et.checkEnoughMoney(20000,30000);
-            et.checkEnoughMoney(-50000,30000);
+            et.checkEnoughMoney(50000,30000);
             System.out.println("정상동작하니?");
+
+        } catch (NotEnoughMoneyException e) {
+            System.out.println("NotEnoughMoneyException 발생!!!");
+            System.out.println(e.getMessage());
+
         } catch (PriceNegativeException e) {
 
             System.out.println("PriceNegativeException 발생!!!");
             System.out.println(e.getMessage());
         } catch (MoneyNegativeException e) {
             System.out.println("MoneyNegativeException 발생!!!");
-            System.out.println(e.getMessage());
-        } catch (NotEnoughMoneyException e) {
-            System.out.println("NotEnoughMoneyException 발생!!!");
             System.out.println(e.getMessage());
         } finally {
             /*예외 발생 여부와 상관없이 실행*/
