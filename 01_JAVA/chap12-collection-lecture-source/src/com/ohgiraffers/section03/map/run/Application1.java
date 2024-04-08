@@ -69,6 +69,8 @@ public class Application1 {
             System.out.println("valueIter.next() = " + valueIter.next());
         }
 
+
+
         /* 배열로 만들어서 처리 */
         Object[] valueArr = values.toArray();
         for(int i = 0; i<valueArr.length; i++){
