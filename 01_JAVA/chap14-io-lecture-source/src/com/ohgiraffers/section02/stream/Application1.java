@@ -1,5 +1,6 @@
 package com.ohgiraffers.section02.stream;
 
+import java.io.File;
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;
 import java.io.IOException;
@@ -56,10 +57,17 @@ public class Application1 {
                     e.printStackTrace();
                 }
 
+
+
+
             }
 
 
-        } catch (FileNotFoundException e) {
+        }
+
+
+
+        catch (FileNotFoundException e) {
             if(fin != null){
             try {
                 fin.close();
